@@ -576,8 +576,8 @@ function Kavo.CreateLib(kavName, themeList)
             function Elements:NewButton(bname,tipINf, callback)
                 showLogo = showLogo or true
                 local ButtonFunction = {}
-                tipINf = tipINf or "Tip: Clicking this nothing will happen!"
-                bname = bname or "Click Me!"
+                tipINf = tipINf or "İpucu: Buna tıkladığınızda hiçbir şey olmayacak!"
+                bname = bname or "Tıkla!"
                 callback = callback or function() end
 
                 local buttonElement = Instance.new("TextButton")
